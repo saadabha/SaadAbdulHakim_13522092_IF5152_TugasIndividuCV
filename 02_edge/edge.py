@@ -37,8 +37,8 @@ for name, img in images.items():
   records.append([
     "Sobel",
     name,
-    "—",
-    "—",
+    "-",
+    "-",
     "Sampling per channel" if img.ndim == 3 else "Single channel",
     "Gradien lokal, hasil halus tapi tepi tebal"
   ])
@@ -50,7 +50,7 @@ for name, img in images.items():
   edge_canny_low = canny(gray_like, sigma=1.0, low_threshold=0.05, high_threshold=0.15)
   io.imsave(f"{name}_canny_low.png", img_as_ubyte(edge_canny_low))
   records.append([
-    "Canny (Low)", name, "10", "50",
+    "Canny (Low)", name, "10", "50", "-",
     "Menangkap lebih banyak detail, namun lebih noisy"
   ])
 
