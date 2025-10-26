@@ -58,7 +58,7 @@ for name, img in images.items():
   edge_canny_high = canny(gray_like, sigma=3.0, low_threshold=0.1, high_threshold=0.3)
   io.imsave(f"{name}_canny_high.png", img_as_ubyte(edge_canny_high))
   records.append([
-    "Canny (High)", name, "50", "150",
+    "Canny (High)", name, "50", "150", "-",
     "Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus"
   ])
 
