@@ -1,0 +1,11 @@
+Filter,Gambar,Parameter
+Gaussian,cameraman,sigma=1.5
+Median,cameraman,radius=5
+Gaussian,coins,sigma=1.5
+Median,coins,radius=5
+Gaussian,checkerboard,sigma=1.5
+Median,checkerboard,radius=5
+Gaussian,astronaut,sigma=1.5
+Median,astronaut,radius=5
+Gaussian,personal,sigma=1.5
+Median,personal,radius=5
