@@ -1,0 +1,16 @@
+Metode,Gambar,Low_Threshold,High_Threshold,Parameter_Sampling,Efek_Hasil
+Sobel,cameraman,—,—,Single channel,"Gradien lokal, hasil halus tapi tepi tebal"
+Canny (Low),cameraman,10,50,"Menangkap lebih banyak detail, namun lebih noisy",
+Canny (High),cameraman,50,150,"Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus",
+Sobel,coins,—,—,Single channel,"Gradien lokal, hasil halus tapi tepi tebal"
+Canny (Low),coins,10,50,"Menangkap lebih banyak detail, namun lebih noisy",
+Canny (High),coins,50,150,"Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus",
+Sobel,checkerboard,—,—,Single channel,"Gradien lokal, hasil halus tapi tepi tebal"
+Canny (Low),checkerboard,10,50,"Menangkap lebih banyak detail, namun lebih noisy",
+Canny (High),checkerboard,50,150,"Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus",
+Sobel,astronaut,—,—,Sampling per channel,"Gradien lokal, hasil halus tapi tepi tebal"
+Canny (Low),astronaut,10,50,"Menangkap lebih banyak detail, namun lebih noisy",
+Canny (High),astronaut,50,150,"Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus",
+Sobel,personal,—,—,Sampling per channel,"Gradien lokal, hasil halus tapi tepi tebal"
+Canny (Low),personal,10,50,"Menangkap lebih banyak detail, namun lebih noisy",
+Canny (High),personal,50,150,"Mengabaikan tepi lemah, hasil lebih bersih tapi kehilangan detail halus",
